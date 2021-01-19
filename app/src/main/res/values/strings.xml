@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Furniture</string>
+
+    <string-array name="level">
+        <item>Pembeli</item>
+        <item>Tukang</item>
+    </string-array>
+
+    <string-array name="status_pesanan">
+        <item>MENUNGGU PEMBAYARAN</item>
+        <item>PEMBAYARAN TERVERIFIKASI</item>
+        <item>DIKIRIM</item>
+        <item>PESANAN DITERIMA</item>
+    </string-array>
+</resources>

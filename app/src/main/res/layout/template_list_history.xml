@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/layoutPembelian"
+        android:layout_width="match_parent"
+        android:background="@color/colorTransparentBg"
+        android:layout_height="110dp"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+        <TextView
+            android:id="@+id/txtTanggal"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="2dp"
+            android:layout_gravity="center"
+            android:text="Tanggal Transaksi"/>
+        <TextView
+            android:id="@+id/txtKodeTransaksi"
+            android:layout_width="0dp"
+            android:textStyle="bold"
+            android:layout_weight="1.2"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:padding="2dp"
+            android:layout_gravity="center"
+            android:text="Kode Transaksi"/>
+        <TextView
+            android:id="@+id/txtStatus"
+            android:layout_width="0dp"
+            android:layout_weight="0.6"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textSize="13sp"
+            android:gravity="center"
+            android:padding="2dp"
+            android:layout_gravity="center"
+            android:text="Status Transaksi"/>
+        <TextView
+            android:id="@+id/txtHargaTotal"
+            android:layout_width="0dp"
+            android:layout_weight="1.2"
+            android:textStyle="bold"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            android:padding="2dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Rp. 123456"/>
+    </LinearLayout>

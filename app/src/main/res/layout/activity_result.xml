@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/amber_gradient"
+    android:padding="6dp">
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_layout_search"
+        android:layout_width="295dp"
+        android:background="@color/colorWhite"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="18dp"
+        android:padding="2dp"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/input_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_baseline_search_24"
+            android:inputType="text"
+            android:padding="10dp"
+            android:background="@null"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/colorSecondaryText"  />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ListView
+        android:id="@+id/lvProduct"
+        android:layout_below="@id/input_layout_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:padding="6dp"/>
+</RelativeLayout>
